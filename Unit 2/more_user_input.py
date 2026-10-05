@@ -1,0 +1,15 @@
+print("Please enter the following information so I can sell it for a profit!\n")
+
+name = input("First Name: \n")
+last_name = input("Last Name: \n")
+Grade = input("Grade (9-12): \n")
+Student_ID = input("Student ID: \n")
+Login = input("Login: \n")
+Average = input("Average: \n")
+
+print("Your Infomation:\n")
+print(f"        Login:   {Login}")
+print(f"        ID:      {Student_ID}")
+print(f"        Name:    {name}")
+print(f"        Average: {Average}")
+print(f"        Grade:   {Grade}")

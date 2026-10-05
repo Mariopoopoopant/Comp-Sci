@@ -1,0 +1,13 @@
+name = (input("Hey! Whats your name? "))
+age = int(input(f"Ok, {name}, how old are you? "))
+
+if age < 16:
+    print("You can't drive :(")
+elif age <= 17 and age >= 16:
+    print("You can drive but not vote")
+if age >= 18 and age <= 20:
+    print("You can vote but not rent a car:(")
+if age > 21:
+    print("You can do anything thats legal :)")
+else :
+    print("ERROR!")
